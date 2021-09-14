@@ -1,0 +1,90 @@
+* {
+  margin: 2px;
+  padding: 20;
+  box-sizing: border-box;
+  background-color: #f6f4d2;
+  color: #00120B;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.page {
+  width: 700px;
+  margin: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+  font-weight: normal;
+}
+
+.header {
+  width: 700px;
+  margin: 15px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.experience {
+  width: 375px;
+  float: left;
+  clear: both;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.skills {
+  width: 300px;
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 30px;
+}
+
+.education {
+  width: 300px;
+  float: right;
+  clear: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 30px;
+}
+
+.footer {
+  width: 700px;
+  clear: both;
+}
+
+ul {
+  list-style-type: circle;
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+h1 {
+  border: 2px solid black;
+  width: 275px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 5px;
+  background-color: #cbdfbd;
+}
+
+h2, h3, h4 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
+h2 {
+  border: 1px solid black;
+  width: 150px;
+  margin: 5px auto;
+  text-align: center;
+  background-color: #cbdfbd;
+}
+
+p {
+  padding-top: 5px;
+  font-weight: lighter;
+}
