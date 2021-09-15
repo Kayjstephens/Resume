@@ -1,15 +1,15 @@
 * {
-  margin: 2px;
-  padding: 20;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  background-color: #f6f4d2;
+  background-color: #CBDFBD;
   color: #00120B;
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
 .page {
   width: 700px;
-  margin: 15px;
+  margin: 15px auto;
   padding-top: 5px;
   padding-bottom: 5px;
   overflow: hidden;
@@ -18,26 +18,25 @@
 
 .header {
   width: 700px;
-  margin: 15px;
+  margin: 15px auto;
   padding-bottom: 10px;
   font-weight: bold;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 5px dashed #16302b;
 }
 
 .experience {
   width: 375px;
   float: left;
   clear: both;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-right: 1px solid black;
+  padding-left: 20px;
+  padding-right: 5px;
+  border-right: 5px dashed #16302b;
 }
 
 .skills {
   width: 300px;
   float: right;
-  padding-top: 5px;
   padding-bottom: 5px;
   line-height: 30px;
 }
@@ -54,6 +53,8 @@
 .footer {
   width: 700px;
   clear: both;
+  margin: 15px auto;
+  border-top: 5px dashed #16302b;
 }
 
 ul {
@@ -63,12 +64,12 @@ ul {
 }
 
 h1 {
-  border: 2px solid black;
   width: 275px;
   margin: 20px auto;
   text-align: center;
-  padding: 5px;
-  background-color: #cbdfbd;
+  padding: 10px;
+  background-color: #00120B;
+  color: #F6F4D2;
 }
 
 h2, h3, h4 {
@@ -78,11 +79,12 @@ h2, h3, h4 {
 }
 
 h2 {
-  border: 1px solid black;
   width: 150px;
-  margin: 5px auto;
+  margin: 0 auto;
+  margin-top: 5px;
   text-align: center;
-  background-color: #cbdfbd;
+  background-color: #00120B;
+  color: #F6F4D2;
 }
 
 p {
