@@ -61,33 +61,43 @@ ul {
   list-style-type: circle;
   line-height: 25px;
   font-weight: lighter;
+  margin-bottom: 5px;
 }
 
 h1 {
-  width: 275px;
+  width: 400px;
   margin: 20px auto;
   text-align: center;
   padding: 10px;
   background-color: #00120B;
   color: #F6F4D2;
+  font-size: 50px;
+  border-radius: 25px;
 }
 
 h2, h3, h4 {
   padding-top: 10px;
   padding-bottom: 5px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h2 {
   width: 150px;
   margin: 0 auto;
   margin-top: 5px;
+  margin-bottom: 10px;
   text-align: center;
   background-color: #00120B;
   color: #F6F4D2;
+  border-radius: 25px;
 }
 
 p {
   padding-top: 5px;
   font-weight: lighter;
+}
+
+#contact {
+  font-size: 20px;
+  font-weight: bold;
 }
